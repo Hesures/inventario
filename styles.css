@@ -1,0 +1,93 @@
+
+/********* TAG SELECTORS *******************************************************************************/
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Vollkorn', serif;
+    font-size: 2rem;
+}
+
+/********* CLASS SELECTORS *******************************************************************************/
+
+.flex-container {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/********* BOTONES *******************************************************************************/
+
+button {
+    width: 100%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-family: 'Eczar',serif;
+    font-size: 2rem;
+    background-color: #f3e0bf;
+}
+
+button:hover, value {
+    background-color: black;
+    color: #f3e0bf;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    margin: 0 17%;
+}
+
+/********* INVENTORY *******************************************************************************/
+
+.inventory-section {
+    background-color: #421e06;
+}
+
+.img-container {
+    border: none;
+    width: 120px;
+    height: 120px;
+    margin: 0.5rem;
+}
+
+.slot1, .slot2, .slot3, .slot4, .slot5, .slot6 {
+    background-image: url("images/inventory-slot.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+
+.text-div {
+    margin: 5% 17% 0;
+    text-align: left;
+}
+
+/********* MEDIA *******************************************************************************/
+
+@media (max-width: 1200px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .slot1, .slot2, .slot3, .slot4, .slot5, .slot6 {
+        width: 120px;
+        height: 120px;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    button {
+        font-size: 1.2rem;
+    }
+}

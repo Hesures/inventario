@@ -1,0 +1,87 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- FONTS 
+    font-family: 'Eczar', serif;
+    font-family: 'Vollkorn', serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- <button onclick="location.href='inventory.html'" type="submit" value="Inventario">Inventario</button> -->
+
+    <section>
+        <div class="text-div">
+            <p>Das una vuelta por los escasos talleres de artesanos que se erigen a ambos lados de la calle principal. <br>
+
+                Los talleres disponen de salas adosadas a una de sus paredes, que dan entrada a la tienda, en la que se venden los productos trabajados. <br>
+            
+                Ciertamente no hay nada de tu interés, pues abundan más los olleros y alfareros.  <br>
+
+                Las herrerías y armerías, así como otros talleres de relevancia, se encuentran en Malpica de Bergantiños. 
+                No descartas pasarte por allí, pero antes te urgen otras cosas. <br>
+
+                Te detienes cerca del pozo, frente a un par de tiendas que ofrecen algo de comida y varias dagas. En ese momento, sientes cómo la mirada de dos de los guardias se clavan en tu espalda. 
+                Tus ojos se cruzan con los suyos. Repentinamente te apartan la mirada, y te da la sensación de que cuchichean.
+                No deberías pasar mucho más tiempo allí. <br>
+                Abres tu bolsa para revisar cuánto dinero te queda. 
+                Apenas tienes <span class="money"></span> monedas.</p>
+        </div>
+    </section>
+
+
+    <div class="button-div">
+        <button class="choice1" type="submit" value="Compras una daga">Compras una daga</button>
+    </div>
+
+    <div class="button-div">
+        <button class="choice2" type="submit" value="Compras comida">Compras algo de comida</button>
+    </div>
+
+    <div class="button-div">
+        <button onclick="location.href='salida_mercado.html'" class="choice3" type="submit" value="Te alejas del mercado">Te alejas del mercado</button>
+    </div>
+
+    <!----------------------------------------- INVENTORY -------------------------------------------->
+
+    <section class="inventory-section flex-container">
+        <div>
+            <img class="slot1 img-container"></img>
+        </div>
+
+        <div>
+            <img class="slot2 img-container"></img>
+        </div>
+
+        <div>
+            <img class="slot3 img-container"></img>
+        </div>
+
+        <div>
+            <img class="slot4 img-container"></img>
+        </div>
+
+        <div>
+            <img class="slot5 img-container"></img>
+        </div>
+
+        <div>
+            <img class="slot6 img-container"></img>
+        </div>
+    </section>
+
+    <!----------------------------------------- SCRIPTS -------------------------------------------->
+
+    <script src="index.js"></script>
+
+</body>
+</html>
