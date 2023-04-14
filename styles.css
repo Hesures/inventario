@@ -59,12 +59,10 @@ button:hover, value {
 }
 
 .slot1, .slot2, .slot3, .slot4, .slot5, .slot6 {
-    background-image: url("images/inventory-slot.jpg");
     background-size: cover;
     width: 200px;
     height: 200px;
 }
-
 
 .text-div {
     margin: 5% 17% 0;
